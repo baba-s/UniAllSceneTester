@@ -36,7 +36,7 @@ public class Example
             isValid: scene => scene.name.Length <= 11,
 
             // 「Assets/@Project」フォルダ以下のシーンを対象にテストする
-            isTargetScene: scenePath => scenePath.StartsWith( "@Project" )
+            isTargetScene: scenePath => scenePath.StartsWith( "Assets/@Project" )
         );
     }
 }
